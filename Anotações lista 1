@@ -1,0 +1,23 @@
+
+questão 1 resultados 
+i1, i2, i3 são inteiros
+
+real a1=2.4, a2 ambos são reais...
+
+i1 = a1 -> i1 = 2
+i2 = int(a1*i1) -> 4
+i3 = nint(a1*i1) -> 5
+a2 = a1**i1 = 2.4**2 -> a2 = 5.76
+
+int -> inteiro igual a um real, trunca a parte real e fica com a parte inteira
+nint -> inteiro igual a um real, trunca a parte inteira e fica com o valor inteiro mais próximo.
+
+ i = 10
+ 
+ j = 3
+ 
+ n = i / j -> n = 3 ! trunca a parte real.
+ a = i/ j -> a=3.00000 ! inteiro por inteiro -> inteiro.
+ b = 3.3333333325 ! real por inteiro -> real.
+
+existe uma diferença entre atribuir a uma variável uma divisão feita entre dois inteiros e uma divisão feita por um real e um inteiro.
