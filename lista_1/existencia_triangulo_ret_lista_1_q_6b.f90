@@ -1,11 +1,20 @@
-!===========================================
-!===========================================
-!Programador: Marcus Lucas Amaral do Amaral
-!Número de matrícula:202301670006 
-!Data:13/04/2023
-!===========================================
-!===========================================
-!
+!================================================================================
+ 
+ ! Purpose:
+    ! Escrever uma function que receba 3 valores inteiros e determine se eles podem repre-
+    !sentar os lados de um triângulo retângulo.
+    !Cada function nesta questão pode ser do tipo integer, character ou logical. Se a
+    !função for do tipo integer a saída pode ser 0 ou 1, se ela for do tipo character a saída
+    !pode ser uma das strings SIM ou NAO e se for do tipo logical evidentemente a saída deve
+    !ser .true. ou .false.
+    !
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date                 Programmer                             Description of change
+    ! ========                     =============================                      =============
+    ! 13/04/23                            Marcus Amaral                               Original code
+    ! 13/04/23
+!================================================================================
 ! funçao verificaçao se é triangulo valido
 logical function f1_is3angle(l1, l2, l3)
 implicit none
