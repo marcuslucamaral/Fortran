@@ -1,11 +1,23 @@
-!===========================================
-!===========================================
-!Programador: Marcus Lucas Amaral do Amaral
-!Número de matrícula:202301670006 
-!Data:13/04/2023
-!===========================================
-!===========================================
-!
+!================================================================================
+
+    ! Purpose:
+    ! Escrever uma subrotina para converter a medida de um ângulo de radianos para graus,
+    !minutos e segundos, ou seja, a rotina tem uma única entrada e três saídas. As variáveis de
+    !saída graus e minutos devem ser do tipo integer e a variável segundos, do tipo real.
+    !O resultado deve ser semelhante ao seguinte exemplo:
+    !
+    !Valor em radianos?
+    !1.
+    !1.0000000 rad = 57 graus, 17 min e 44.8062471 seg.
+    !
+    !
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date                 Programmer                             Description of change
+    ! ========                     =============================                      =============
+    ! 13/04/23                            Marcus Amaral                               Original code
+    ! 13/04/23
+!================================================================================
 subroutine conversor(rad, grau, min, sec)
     
     !
