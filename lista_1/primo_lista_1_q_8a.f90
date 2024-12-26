@@ -1,10 +1,18 @@
-!===========================================
-!===========================================
-!Programador: Marcus Lucas Amaral do Amaral
-!Número de matrícula:202301670006 
-!Data:13/04/2023
-!===========================================
-!================
+!================================================================================
+ 
+    ! Purpose:
+    !
+    ! Escrever uma função ou uma subrotina que determine se um número N é primo, usando
+    !a função intrínseca MOD para testar a divisibilidade. Construa de maneira a realizar o
+    !mínimo possível de testes de divisibilidade.
+    !
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date                 Programmer                             Description of change
+    ! ========                     =============================                      =============
+    ! unknown                            Marcus Amaral                               Original code
+    ! unknown
+!================================================================================
 
 character(15) function eprimo(x)
 implicit none
