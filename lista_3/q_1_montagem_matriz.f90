@@ -1,6 +1,23 @@
 !
     ! Purpose:
-    ! Monta Matriz a partir de vetores
+    ! Uma imagem como esta pode ser construída a partir da distribuição de intensidades de três cores básicas: vermelho (red),
+    !verde (green) e azul (blue). Um programa com ferramentas para exibir gráficos (MATLAB ou
+    !OCTAVE) pode ler a informação sobre as cores em três matrizes e compor a imagem. Neste
+    !problema você irá trabalhar com estas informações.
+    !No arquivo fontes.dat está toda a informação para construir a imagem da foto. Na primeira
+    !linha do arquivo estão dois números inteiros (Nx, Ny) que correspondem às quantidades de pixels
+    !que formam a imagem, na horizontal e na vertical, nesta ordem. Em seguida vem uma única
+    !coluna de dados com 3*Nx*Ny números. Estes números correspondem aos elementos de três
+    !matrizes de tamanhos iguais, com as informações das três cores, na sequência red, green, blue.
+    !Os valores estão organizados por coluna, de maneira que os primeiros Ny números formam a
+    !primeira coluna da matriz Red, os próximos Ny valores formam a segunda coluna da mesma
+    !matriz e assim por diante. Na sequência vem as colunas da matriz Green e depois as da Blue.
+    !Seu programa deve dimensionar as matrizes a partir da leitura dos valores de Nx e Ny.
+    !Você deve construir um programa para ler a informação contida no arquivo fontes.dat e a partir
+    !dela montar três matrizes para serem importadas para o MATLAB ou OCTAVE para exibir
+    !a imagem. Salve as matrizes em três arquivos chamados Red.dat, Green.dat e Blue.dat.
+    !Depois, para visualizar a imagem final, simplesmente use o script monta_imagem.m dentro da
+    !mesma pasta onde salvou os arquivos.
     ! 
     ! 
     !
