@@ -1,3 +1,21 @@
+!============================================================================================
+    ! Purpose:
+    !Escreva um programa que receba valores de ângulos expressos em radianos e os converta em
+    !graus, minutos e segundos. Escreva os resultados em um formato semelhante ao do exemplo:
+    !Valor em radianos?
+    !1.
+    !1.0000000 rad = 57 graus, 17 min e 44.8223877 seg.
+    !Repare que os valores em graus e minutos são números inteiros. Apenas os valores em segundos
+    !são expressos com variáveis reais.
+    !
+    !
+    ! Record of revisions:
+    ! Date                         Programmer                         Description of change
+    ! ========          =============================                     =============
+    ! may/23                     Marcus Amaral                             Originalcode
+
+!================================================================================
+
 subroutine angulo(rad, graus, minutos, segundos)
         implicit none
         real, intent(in) :: rad
