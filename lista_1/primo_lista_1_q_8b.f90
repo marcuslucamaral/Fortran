@@ -1,10 +1,17 @@
-!===========================================
-!===========================================
-!Programador: Marcus Lucas Amaral do Amaral
-!Número de matrícula:202301670006 
-!Data:13/04/2023
-!===========================================
-!================
+!================================================================================
+ 
+    ! Purpose:
+    !
+    ! Usar a função ou rotina da questao de primos anterior em um programa que determine e exiba todos os números
+    !primos menores que 10.000.
+    !
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date                 Programmer                             Description of change
+    ! ========                     =============================                      =============
+    ! unknown                            Marcus Amaral                               Original code
+    ! unknown
+!================================================================================
 
 logical function eprimo(x)
     
