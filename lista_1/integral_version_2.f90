@@ -1,13 +1,17 @@
-!===========================================
-!===========================================
-!Programador: Marcus Lucas Amaral do Amaral
-!Número de matrícula:202301670006 
-!Data:16/05/2023
-!===========================================
-! Calculo da integral por trapezios, nesse  se aumenta o numero de intervalos para perceber
-!a convergencia, aumenta a quanditade de intervalos  por 2x
-!===========================================
-!
+!================================================================================
+ 
+    ! Purpose:
+    !
+    ! Calculo da integral por trapezios, nesse  se aumenta o numero de intervalos para perceber
+    !a convergencia, aumenta a quanditade de intervalos  por 2x
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date                 Programmer                             Description of change
+    ! ========                     =============================                      =============
+    ! 16/05/2023                            Marcus Amaral                               Original code
+    ! unknown
+!================================================================================
+
 module integracao
     implicit none
     real, parameter:: pi = 3.14159265 
