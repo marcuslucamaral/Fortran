@@ -1,9 +1,23 @@
-!===========================================
-!Programador: Marcus Lucas Amaral do Amaral
-!Número de matrícula:202301670006 
-!Data:13/04/2023
-!===========================================
-!================
+!================================================================================
+ 
+    ! Purpose:
+    !
+    !a) Escreva uma function para calcular a série de Taylor das funções seno e cosseno, com
+    !a máxima precisão possível. Teste seu programa para diferentes valores de argumentos
+    !das funções. Você irá verificar que seu programa começa a falhar para valores grandes dos
+    !argumentos. Explique por que isto acontece.
+    !b) Modifique seu programa para que possa calcular os valores com boa precisão, para
+    !qualquer valor do argumento.
+    !Dica: se o número x dado como argumento da função for menor do que −π ou maior do
+    !que π, calcule o número entre −π e π que tenha os mesmos valores de seno e cosseno que
+    !o x, e então aplique este número na série de Taylor.
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date                 Programmer                             Description of change
+    ! ========                     =============================                      =============
+    ! 04/2023                            Marcus Amaral                               Original code
+    ! unknown
+!================================================================================
 
 Program Test_Taylor
     ! Para testar a nossa implementação para a aproximação de Taylor da função seno.
