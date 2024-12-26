@@ -1,3 +1,16 @@
+!================================================================================
+
+    ! Purpose:
+    ! Subrotina com Cálculo Média e desvio padrao de um vetor
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date             Programmer                             Description of change
+    ! ========                     =============================                      =============
+    !april/23                 Marcus Lucas Amaral do Amaral                      Original code
+    !
+!================================================================================
+
+
 subroutine Media_dp(N,x, media,dp)
 implicit none
 integer,intent(in):: N
