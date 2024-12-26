@@ -1,9 +1,34 @@
-!
+!===============================================================================================================================
     ! Purpose:
-    ! Monta Matriz a partir de vetores, tranforma em 3 matrizes de cada cor
-    !dimui o pixel pela metada, a parti da media de 4 valores ao redor, gera
-    !a imagem com menor qualidade 
-    ! 
+    !
+    ! No arquivo Beni.dat está toda a informação para construir a imagem abaixo, organizada no
+    !arquivo exatamente da mesma maneira que foi descrita na questão 1.
+    !A imagem tem 2.359.296 pixels dispostos em 1.152 linhas e 2.048 colunas, o que resulta num
+    !arquivo ASCII de 127,4 MB. O objetivo desta tarefa é reduzir o número de pixels da imagem, de
+    !maneira a gerar matrizes menores. Uma maneira simples de criar uma imagem com um quarto
+    !do número de pixels (perdendo bastante informação!) é construir matrizes das intensidades de
+    !cores de modo que cada pixel seja a média de 4 pixels da imagem original. Por exemplo, se
+    !a imagem tivesse apenas 4 por 8 pixels, cada matriz reduzida seria 2 por 4, sendo que cada
+    !elemento desta seria a média de 4 elementos da matriz original: 
+    !Para gerar as matrizes reduzidas, você deve construir um programa para realizar os seguintes
+    !passos:
+    !1. Ler a informação contida no arquivo Beni.dat e a partir dela montar três matrizes, R, G
+    !e B, com o tamanho original;
+    !2. Dimensionar outras três matrizes (R2, G2, B2) com metade do número de linhas e metade
+    !do número de colunas das matrizes originais;
+    !3. Calcular o valor de cada elemento das matrizes reduzidas como a média dos valores de 4
+    !elementos adjacentes das matrizes originais;
+    !4. Salvar as matrizes em seis arquivos chamados Red.dat, Green.dat, Blue.dat, com os
+    
+    !valores originais, e Red2.dat, Green2.dat, Blue2.dat, com os valores das matrizes re-
+    !duzidas.
+    
+    !Você pode considerar que os números de linhas e de colunas são sempre pares.
+    !Ao final, para visualizar e comparar as imagens use o script monta_imagem_Beni.m na mesma
+    !pasta onde estão salvas os arquivos com as matrizes. Verifique as diferenças nas imagens quando
+    !você dá (zoom) nas duas. Verifique também as diferenças nos tamanhos dos arquivos com as
+    !matrizes originais e as reduzidas.
+    !
     !
     ! Record of revisions:
     ! Date_begin/end_date Programmer Description of change
