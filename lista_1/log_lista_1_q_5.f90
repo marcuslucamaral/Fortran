@@ -1,11 +1,19 @@
-!===========================================
-!===========================================
-!Programador: Marcus Lucas Amaral do Amaral
-!Número de matrícula:202301670006 
-!Data:13/04/2023
-!===========================================
-!===========================================
-!
+!================================================================================
+ 
+    ! Purpose:
+    !
+    ! Se conhecemos o logaritmo de um número N na base b, podemos calcular o seu logaritmo
+    !na base a através da fórmula.
+    !log_a (x) = log_b (x)/log_b (a) 
+    !Escreva uma função com dois argumentos de entrada que calcule o logaritmo de um número
+    !x em uma base a, qualquer.
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date                 Programmer                             Description of change
+    ! ========                     =============================                      =============
+    ! unknown                            Marcus Amaral                               Original code
+    ! unknown
+!================================================================================
 
 real function log_base_a (a,x)
 
