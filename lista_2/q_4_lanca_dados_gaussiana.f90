@@ -1,13 +1,27 @@
-  !
+!===================================================================================
     ! Purpose:
-    ! Esse programa possui uma subroina que calcula
-    ! o lançamento de N dados, 6 faces cada, registra 
-    ! o numero de eventos de cada numero e a probabilidade
-    !de cada valor
+    !
+    ! Se você lançar um dado muitas vezes, observará uma sequência de números aleatórios entre 1 e 6
+    !com distribuição uniforme, ou seja, todo número tem igual probabilidade (16,667 %) de aparecer
+    !em cada lançamento. Já no lançamento de dois dados, os números possíveis são de 2 a 12, agora
+    !com probabilidades diferentes para cada número,
+    !Com mais dados sendo lançados, as probabilidades passam a variar de maneira não linear, de
+    !modo que quanto maior o número de dados em um lançamento, mais a curva das probabilidades
+    !se assemelha a uma gaussiana.
+    !Sua tarefa nesta questão é escrever um programa para verificar este comportamento:
+    !1. Escreva uma subrotina que simule o lançamento de N dados. Para dados de 6 faces, os
+    !resultados possíveis são os números de N até 6N.
+    !2. Execute um grande número de lançamentos, registrando o número de vezes que cada número
+    !foi obtido, e ao final calcule a probabilidade atingida por cada valor.
+    !3. Salve os resultados num arquivo para visualizar o gráfico.
+    !Como você faria para determinar se a distribuição é uma gaussiana verdadeira ou apenas apro-
+    !ximadamente?
+    !
+    !
     ! Record of revisions:
-    ! Date              Programmer            Description of change
-    ! ======== ============================= =============
-    ! 22/05/23 Marcus Lucas Amaral do Amaral Original code
+    ! Date                                    Programmer                  Description of change
+    ! ========                       =============================             =============
+    ! 22/05/23                               Marcus Amaral                      Original code
 
 !================================================================================
 
