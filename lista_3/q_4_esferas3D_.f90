@@ -1,3 +1,30 @@
+!===============================================================================================================================
+    ! Purpose:
+    !
+    ! Na última lista, você resolveu o problema de calcular o campo gravimétrico de alvos esféricos e
+
+    !mostrar o resultado em um gráfico. Uma extensão óbvia deste problema é realizar o mesmo cál-
+    !culo considerando medidas em um plano na superfície, ou seja, saindo do plano (x, z) e colocando
+
+    !as esferas em qualquer coordenada no espaço tridimensional abaixo da superfície.
+    !Por exemplo, para as mesmas três esferas do problema anterior, colocadas em posições com a
+    !coordenada y = 0,
+    !Ao final, para visualizar e comparar as imagens use o script monta_imagem_Beni.m na mesma
+    !pasta onde estão salvas os arquivos com as matrizes. Verifique as diferenças nas imagens quando
+    !você dá (zoom) nas duas. Verifique também as diferenças nos tamanhos dos arquivos com as
+    !matrizes originais e as reduzidas.
+    !Modifique sua função que calcula o campo da esfera na superfície para incluir a variável y0 e
+    !gerar valores em uma área no plano (x, y).
+    !Para testar esta nova versão, use exatamente as mesmas três esferas do problema anterior, só
+    !que agora posicionadas em uma linha paralela ao eixo x mas com y ̸= 0. Plote os valores nesta
+    !coordenada em um gráfico, que deverá ser idêntico ao que gerou no problema anterior.
+    !
+    ! Record of revisions:
+    ! Date_begin/end_date Programmer Description of change
+    ! ======== ============================= =============
+    ! may/23 Marcus Lucas Amaral do Amaral Original code
+    ! 
+!================================================================================
 real function gz (r,rho,x,y,z)
     real, parameter:: pi = 3.14159265359
     real, parameter:: G = 6.674e-11
