@@ -1,9 +1,22 @@
 program ordena_vetores
     !
     ! Purpose:
-    ! Esse programa le um conjunto de dados
-    ! 
-    ! 
+    ! O arquivo coordenadas.dat contém três colunas contendo as coordenadas (x, y) de 500 pontos
+    !do gráfico de uma função, no seguinte padrão:
+    ! 500
+    !1 5.9853573 -2.9344454
+    !2 3.4009480 -2.5645757
+    !3 5.7954922 -4.6858921
+    !.     .         .
+    !Os valores na primeira coluna são índices inteiros, na segunda e na terceira estão as coordenadas
+    !x e y, respectivamente. Acontece que os pontos não estão dispostos sequencialmente no arquivo.
+    !Eles foram embaralhados de forma aleatória.
+    !Escreva um programa para realizar as seguintes tarefas:
+    !1. Ler os dados do arquivo coordenadas.dat;
+    !2. Criar um segundo arquivo contendo as mesmas coordenadas, agora ordenadas de acordo
+    !com os valores da coluna dos x.
+    !3. Construa o gráfico da função y = f(x).
+    !
     !
     ! Record of revisions:
     ! Date Programmer Description of change
