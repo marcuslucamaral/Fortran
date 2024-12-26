@@ -1,18 +1,17 @@
-
+    
 program media_movel
-    !
+ 
+!============================================================================================
     ! Purpose:
-    ! Esse programa faz a media móvel de um conjunto de dados
-    ! 
-    ! 
+    !Esse programa faz a media móvel de um conjunto de dados
+    !
     !
     ! Record of revisions:
-    ! Date Programmer Description of change
-    ! ======== ============================= =============
-    ! 18/05/23 Marcus Lucas Amaral do Amaral Original code
+    ! Date                         Programmer                         Description of change
+    ! ========          =============================                        =============
+    ! 18/05/23                     Marcus Amaral                             Original code
 
 !================================================================================
-
     implicit none
     use estatistica
     integer :: N, i, w
