@@ -12,8 +12,8 @@
     ! Record of revisions:
     ! Date_begin/end_date                 Programmer                             Description of change
     ! ========                     =============================                      =============
-    ! 13/04/23                            Marcus Amaral                               Original code
-    ! 13/04/23
+    ! 14/04/23                            Marcus Amaral                               Original code
+    ! 15/04/23
 !================================================================================
 ! funçao verificaçao se é triangulo valido
 logical function f1_is3angle(l1, l2, l3)
